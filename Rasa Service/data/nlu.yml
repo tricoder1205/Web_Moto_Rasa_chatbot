@@ -1,91 +1,92 @@
 version: "3.1"
 
 nlu:
-- intent: greet
+- intent: chaohoi
   examples: |
-    - hey
     - hello
     - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
+    - xin chào
+    - chào ạ
+    - chào
+    - cho mình hỏi
+    - shop ơi
+    - ad ơi
+    - bạn ơi
+    - chào bot
 
-- intent: goodbye
+- intent: tambiet
   examples: |
-    - cu
-    - good by
-    - cee you later
-    - good night
+    - cảm ơn
     - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
-
-- intent: affirm
-  examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
-
-- intent: deny
-  examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
-
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
-
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+    - cảm ơn ạ
+    - bye ad
+    - tạm biệt
 
 - intent: bot_challenge
   examples: |
-    - are you a bot?
-    - are you a human?
+    - bạn có phải là bot?
+    - bạn có phải là người?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: sanpham
+  examples: |
+    - yamaha
+    - honda
+    - ducati
+    - bmw
+    - kawasaki
+    - ninja
+    - r1
+    - z1000
+  
+- intent: mausac
+  examples: |
+    - xanh
+    - đỏ
+    - vàng
+    - xanh lá
+    - trắng
+    - đỏ đen
+
+- intent: storearress
+  examples: |
+    - vị trí cửa hàng
+    - vị trí cửa hàng ở đâu ạ
+    - cửa hàng ở đâu shop
+
+- intent: contact
+  examples: |
+    - số điện thoại cửa hàng
+    - thông tin mình liên hệ 
+    - làm sao để mình liên hệ shop ạ
+    - liên hệ
+    - liên hệ ra sao
+
+- intent: giaxe
+  examples: |
+    - giá xe
+    - xe giá bao nhiêu ạ
+    - nhiêu tiền ạ
+    - xe nhiêu vậy shop
+    - giá xe tầm giá nhiêu ạ
+
+- intent: baoduong
+  examples: |
+    - mình cần bảo dưỡng
+    - bảo dưỡng
+    - thời gian bảo dưỡng
+    - bảo dưỡng như thế nào 
+    - làm sao để bảo dưỡng
+
+- intent: muahang
+  examples: |
+    - mình có thể mua như thế nào
+    - làm thế nào để mua hàng
+    - how can i buy
+    - mua hàng như thế nào
+    - mua hàng
+    - làm sao để mua hàng 
+
+- intent: muahang
+  examples: |
