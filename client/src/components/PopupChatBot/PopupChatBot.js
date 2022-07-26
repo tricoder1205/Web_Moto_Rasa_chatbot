@@ -1,10 +1,9 @@
-import './PopupChatBot.scss';
 import React, { useEffect, useState } from 'react';
-import axios from 'axios';
+import './PopupChatBot.scss';
 
-import logo from '../../assets/logo/logo_moto.jpg'
-import { AiOutlineCloseCircle } from 'react-icons/ai'
-import { FiSend } from 'react-icons/fi'
+import { AiOutlineCloseCircle } from 'react-icons/ai';
+import { FiSend } from 'react-icons/fi';
+import logo from '../../assets/logo/logo_moto.jpg';
 
 
 function PopupChatBot({setPopupChat}) {
@@ -12,10 +11,8 @@ function PopupChatBot({setPopupChat}) {
     const [chatValue, setChatValue] = useState('');
     const [botTyping,setbotTyping] = useState(false);
 
-
     const rasaAPI = async function handleClick(name, msg) {
-
-        await fetch('http://localhost:5005/webhooks/rest/webhook', {
+            await fetch('http://localhost:5005/webhooks/rest/webhook', {
             method: 'POST',
             headers: {
               'Accept': 'application/json',
@@ -38,7 +35,7 @@ function PopupChatBot({setPopupChat}) {
                 setChat(chat => [...chat, response_temp]);
                // scrollBottom();
             }
-        }) .catch(err => console.log('err: ' + err))
+        }).catch(err => console.log('err: ' + err))
     }
 
     const handleChatValue =(e)=>{
@@ -61,12 +58,12 @@ function PopupChatBot({setPopupChat}) {
         }
     }
 
-    const handlePressEnter = (e) => {
-        if (e.key === 'Enter') {
-            handleSubmit();
-            setChatValue('');
-        }
-    }
+    // const handlePressEnter = (e) => {
+    //     if (e.key === 'Enter') {
+    //         handleSubmit();
+    //         setChatValue('');
+    //     }
+    // }
 
     useEffect(()=>{
    

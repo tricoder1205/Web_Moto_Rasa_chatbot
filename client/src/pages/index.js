@@ -1,7 +1,9 @@
 import ListProduct from "../components/ListProduct/ListProduct";
 import Slides from "../components/Slide/Slides";
 import serviced from "../assets/images/serviced.jpg";
+import TopSaling from "../components/TopSaling/TopSaling";
 
+import banner from "../assets/images/banner_home.jpg"
 
 function Home() {
   console.log('render')
@@ -9,6 +11,12 @@ function Home() {
   return (
     <div>
         <Slides />
+        <TopSaling />
+        <div className="container">
+          <div className="banner_home">
+            <img src={banner} alt="" />
+          </div>
+        </div>
         <ListProduct />
         <div className="container">
           <div className="serviced">

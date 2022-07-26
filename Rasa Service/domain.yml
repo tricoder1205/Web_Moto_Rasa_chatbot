@@ -1,33 +1,75 @@
 version: "3.1"
 
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
+    - chaohoi
+    - goodbye
+    - bot_challenge
+    - great
+    - sanpham
+    - mausac
+    - storearress
+    - contact
+    - giaxe
+    - baoduong
+    - muahang
+    - phutung
+    - hinhthuc_thanhtoan
+    - promotion
+    - top_selling
+    - dangkyxe
+    - phitruocba
 
 responses:
-  utter_greet:
-  - text: "Hey! How are you?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
+  utter_chaohoi:
+  - text: "Xin chào Anh/chị, Không biết Anh/chị đang quan tâm đến dòng xe nào vậy ạ ?"
 
   utter_goodbye:
-  - text: "Bye"
+  - text: "Cảm ơn Anh/chị đã đến với cửa hàng."
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  - text: "Tôi là BOT hổ trợ quý khách tìm kiếm thông tin."
+
+  utter_great:
+  - text: "Cảm ơn quý khách đã xác nhận thông tin."
+
+  utter_sanpham:
+  - text: "Quý khách có thể tham khảo thêm các sản phẩm tại đây: link"
+
+  utter_mausac:
+  - text: "Quý khách có thể tham khảo thêm các sản phẩm tại đây: link"
+
+  utter_storearress:
+  - text: "Địa chỉ cửa hàng nằm tại địa chỉ số 100 đường 3 tháng 2, Ninh Kiều, Cần Thơ"
+
+  utter_contact:
+  - text: "Quý khách vui lòng liên hệ qua số hotline: 0333717088 hoặc nhắn tin vào fanpage Moto VietNam"
+
+  utter_giaxe:
+  - text: "Quý khách có thể tham khảo thêm giá các sản phẩm tại đây: link"
+
+  utter_baoduong:
+  - text: "Để đăng ký bảo dưỡng xe, quý khách vui lòng truy cập: link để tiến hành đặt lịch bão dưỡng cho xe của quý khách."
+
+  utter_muahang:
+  - text: "Để mua hàng quý khách vui lòng lựa chọn sản phẩm mà quý khách mong muốn và thêm vào giỏ hàng và tiến hành mua sản phẩm nha."
+
+  utter_phutung:
+  - text: "Quý khách có thể tham khảo thêm các phụ tùng tại đây: link"
+
+  utter_hinhthuc_thanhtoan:
+  - text: "Quý khách có thể thanh toán hóa bằng cách thanh toán qua cổng thanh toán trực tiếp hoặc đến trực tiếp cửa hàng để thanh toán."
+
+  utter_promotion:
+  - text: "Thông tin khuyến mãi quý khách vui lòng truy cập: link"
+
+  utter_top_selling:
+  - text: "Quý khách vui lòng truy cập: link để xem các sản phẩm bán chạy nhất của cửa hàng"
+
+  utter_dangkyxe:
+  - text: "Để đăng ký xe quý khách vui lòng cung cấp các thông tin cần thiết như: họ và tên, năm sinh, số CMND/CCCD. Cửa hàng sẽ hổ trợ quý khách điền thông tin vào các giấy tờ cần thiết khi đăng ký xe. Sau khi quý khách đến nhận xe cửa hàng sẽ đưa giấy tờ cho quý khách để đi đăng ký xe."
+
+  utter_phitruocba:
+  - text: "Phí trước bạ đối với xe máy được tính tùy theo khu vực/Thành phố thì sẽ có mức lệ phí từ 2% - 5% giá trị xe, phí ra biển số: Khu vực I: 02 – 04 triệu đồng.Khu vực II: 800.000 đồng. Khu vực III: 50.000 đồng."
 
 session_config:
   session_expiration_time: 60

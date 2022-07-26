@@ -2,29 +2,88 @@ version: "3.1"
 
 stories:
 
-- story: happy path
+- story: story_chaohoi
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
+  - intent: chaohoi
+  - action: utter_chaohoi
 
-- story: sad path 1
+- story: story_goodbye
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
-
-- story: sad path 2
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
+  - intent: goodbye
   - action: utter_goodbye
+
+- story: story_bot_challenge
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- story: story_great
+  steps:
+  - intent: great
+  - action: utter_great
+
+- story: story_sanpham
+  steps:
+  - intent: sanpham
+  - action: utter_sanpham
+
+- story: story_mausac
+  steps:
+  - intent: mausac
+  - action: utter_mausac
+
+- story: story_storearress
+  steps:
+  - intent: storearress
+  - action: utter_storearress
+
+- story: story_contact
+  steps:
+  - intent: contact
+  - action: utter_contact
+
+- story: story_giaxe
+  steps:
+  - intent: giaxe
+  - action: utter_giaxe
+
+- story: story_baoduong
+  steps:
+  - intent: baoduong
+  - action: utter_baoduong
+
+- story: story_muahang
+  steps:
+  - intent: muahang
+  - action: utter_muahang
+
+- story: story_phutung
+  steps:
+  - intent: phutung
+  - action: utter_phutung
+
+- story: story_hinhthuc_thanhtoan
+  steps:
+  - intent: hinhthuc_thanhtoan
+  - action: utter_hinhthuc_thanhtoan
+
+- story: story_promotion
+  steps:
+  - intent: promotion
+  - action: utter_promotion
+
+- story: story_top_selling
+  steps:
+  - intent: top_selling
+  - action: utter_top_selling
+
+- story: story_dangkyxe
+  steps:
+  - intent: dangkyxe
+  - action: utter_dangkyxe
+
+- story: story_phitruocba
+  steps:
+  - intent: phitruocba
+  - action: utter_phitruocba
+

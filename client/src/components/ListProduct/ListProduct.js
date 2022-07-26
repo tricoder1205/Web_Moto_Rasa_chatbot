@@ -10,9 +10,11 @@ function ListProduct() {
     return (
         <div className="container">
             <div className="list__product_wrap">
-                <h1 className="list__product_wrap_title">
-                    DANH SÁCH SẢN PHẨM
-                </h1>
+                <div className="list__product_wrap_title">
+                    <p> DANH SÁCH SẢN PHẨM</p>
+                    <div className="see_all">Xem tất cả</div>
+                </div>
+                
                 <div className="list__product_wrap_list">
                     <Link to={'/product'} className="list__product_wrap_list_item">
                         <img src={picture1} className="" alt="" />
@@ -74,6 +76,39 @@ function ListProduct() {
                         </div>
                     </Link>
 
+                    <Link to={'/product'} className="list__product_wrap_list_item">
+                        <img src={picture1} className="" alt="" />
+                        <div className="item_info">
+                            <div className="item_info_name">
+                                MT10
+                            </div>
+                            <div className="item_info_price">
+                                Giá: 469.000.000 đ
+                            </div>  
+                        </div>
+                    </Link>
+                    <Link to={'/product'} className="list__product_wrap_list_item">
+                        <img src={picture1} className="" alt="" />
+                        <div className="item_info">
+                            <div className="item_info_name">
+                                MT10
+                            </div>
+                            <div className="item_info_price">
+                                Giá: 469.000.000 đ
+                            </div>  
+                        </div>
+                    </Link>
+                    <Link to={'/product'} className="list__product_wrap_list_item">
+                        <img src={picture1} className="" alt="" />
+                        <div className="item_info">
+                            <div className="item_info_name">
+                                MT10
+                            </div>
+                            <div className="item_info_price">
+                                Giá: 469.000.000 đ
+                            </div>  
+                        </div>
+                    </Link>
                     <Link to={'/product'} className="list__product_wrap_list_item">
                         <img src={picture1} className="" alt="" />
                         <div className="item_info">

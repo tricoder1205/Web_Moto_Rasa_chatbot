@@ -1,4 +1,5 @@
 import "./footer.scss";
+import { Link } from "react-router-dom";
 import logo from "../../assets/logo/logo_moto.jpg";
 import visa from "../../assets/images/Visa_Inc_logo.png";
 import napas from "../../assets/images/napas-logo.png";
@@ -12,7 +13,9 @@ function Footer() {
           <div className="footer_item">
             <span>Revzone Yamaha Motor được tổ chức và vận hành chính thức bởi</span>
             <div className="logo">
-                <img src={logo} alt="logo" />
+                <Link to="/">
+                  <img src={logo} alt="logo" />
+                </Link>
             </div>
             <span>
               CÔNG TY TNHH MOTOR VIỆT NAM <br/>

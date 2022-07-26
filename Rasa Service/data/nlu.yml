@@ -13,22 +13,33 @@ nlu:
     - ad ơi
     - bạn ơi
     - chào bot
-
-- intent: tambiet
+#1
+- intent: goodbye
   examples: |
     - cảm ơn
     - bye
     - cảm ơn ạ
     - bye ad
     - tạm biệt
-
+#2
 - intent: bot_challenge
   examples: |
     - bạn có phải là bot?
     - bạn có phải là người?
     - am I talking to a bot?
     - am I talking to a human?
+#3
+- intent: great
+  examples: |
+    - có
+    - vâng
+    - ok 
+    - ok shop
+    - yes
+    - tất nhiên
+    - có ạ
 
+#4
 - intent: sanpham
   examples: |
     - yamaha
@@ -39,22 +50,31 @@ nlu:
     - ninja
     - r1
     - z1000
-  
+    - naked
+    - sport
+    - touring
+    - cruise
+    - adventure
+#5  
 - intent: mausac
   examples: |
+    - màu sắc
+    - màu
+    - xe màu
+    - màu xe
     - xanh
     - đỏ
     - vàng
     - xanh lá
     - trắng
     - đỏ đen
-
+#6
 - intent: storearress
   examples: |
     - vị trí cửa hàng
     - vị trí cửa hàng ở đâu ạ
     - cửa hàng ở đâu shop
-
+#7
 - intent: contact
   examples: |
     - số điện thoại cửa hàng
@@ -62,7 +82,7 @@ nlu:
     - làm sao để mình liên hệ shop ạ
     - liên hệ
     - liên hệ ra sao
-
+#8
 - intent: giaxe
   examples: |
     - giá xe
@@ -70,7 +90,7 @@ nlu:
     - nhiêu tiền ạ
     - xe nhiêu vậy shop
     - giá xe tầm giá nhiêu ạ
-
+#9
 - intent: baoduong
   examples: |
     - mình cần bảo dưỡng
@@ -78,7 +98,7 @@ nlu:
     - thời gian bảo dưỡng
     - bảo dưỡng như thế nào 
     - làm sao để bảo dưỡng
-
+#10
 - intent: muahang
   examples: |
     - mình có thể mua như thế nào
@@ -87,6 +107,62 @@ nlu:
     - mua hàng như thế nào
     - mua hàng
     - làm sao để mua hàng 
-
-- intent: muahang
+#11
+- intent: phutung
   examples: |
+    - phụ tùng
+    - giá phụ tùng 
+    - shop ơi, phụ tùng bán sao ạ
+    - giá phụ tùng sao ạ
+    - phụ tùng ở đâu ạ
+    - phụ tùng xe sao shop 
+    - xe có phụ tùng nào ạ
+#12
+
+- intent: hinhthuc_thanhtoan
+  examples: |
+    - thanh toán
+    - thanh toan
+    - trả tiền
+    - thanh toán như thế nào
+    - thanh toán như nào shop
+    - làm sao để thanh toán
+    - thanh toán qua đâu ạ?
+#13
+
+- intent: promotion
+  examples: |
+    - khuyến mãi
+    - khuyen mai
+    - khuyến mãi như nào shop
+    - sản phẩm nào khuyến mãi ạ
+    - sản phẩm khuyến mãi
+#14
+
+- intent: top_selling
+  examples: |
+    - sản phẩm nào bán chạy nhất ạ
+    - sản phẩm nào mua nhiều ạ
+    - top sản phẩm bán chạy
+    - những xe nào bán chạy nhất
+#15
+
+- intent: dangkyxe
+  examples: |
+    - đăng ký xe như thế nào
+    - đăng ký xe cần gì
+    - làm thế nào để đăng ký xe
+    - mình muốn đăng ký xe
+    - xe đăng ký như thế nào shop
+#16
+
+- intent: phitruocba
+  examples: |
+    - phí trước bạ
+    - giá xe sau khi đăng ký là bao nhiêu shop
+    - phí trước bạ sau khi ra biển là bao nhiêu shop
+    - phí trước bạ tính ra sao ạ
+    - phí trước bạ tính như nào ạ
+    - phi truoc ba 
+#17
+
